@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		8B050C8E2895CC2C004AE0DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B050C8D2895CC2C004AE0DC /* AppDelegate.swift */; };
 		8B050C902895CC2C004AE0DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B050C8F2895CC2C004AE0DC /* SceneDelegate.swift */; };
-		8B050C922895CC2C004AE0DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B050C912895CC2C004AE0DC /* ViewController.swift */; };
 		8B050C952895CC2C004AE0DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B050C932895CC2C004AE0DC /* Main.storyboard */; };
 		8B050C972895CC2F004AE0DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B050C962895CC2F004AE0DC /* Assets.xcassets */; };
 		8B050C9A2895CC2F004AE0DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B050C982895CC2F004AE0DC /* LaunchScreen.storyboard */; };
+		8B050CA92895CE92004AE0DC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B050CA82895CE92004AE0DC /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8B050C8A2895CC2C004AE0DC /* uber-uikit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uber-uikit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B050C8D2895CC2C004AE0DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B050C8F2895CC2C004AE0DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8B050C912895CC2C004AE0DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8B050C942895CC2C004AE0DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B050C962895CC2F004AE0DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B050C992895CC2F004AE0DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B050C9B2895CC2F004AE0DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B050CA82895CE92004AE0DC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +56,55 @@
 		8B050C8C2895CC2C004AE0DC /* uber-uikit */ = {
 			isa = PBXGroup;
 			children = (
+				8B050CA72895CDD1004AE0DC /* Utils */,
+				8B050CA62895CDCE004AE0DC /* Controllers */,
+				8B050CA32895CDC3004AE0DC /* Model */,
+				8B050CA22895CDBE004AE0DC /* Services */,
+				8B050CA12895CDAF004AE0DC /* View */,
 				8B050C8D2895CC2C004AE0DC /* AppDelegate.swift */,
 				8B050C8F2895CC2C004AE0DC /* SceneDelegate.swift */,
-				8B050C912895CC2C004AE0DC /* ViewController.swift */,
 				8B050C932895CC2C004AE0DC /* Main.storyboard */,
 				8B050C962895CC2F004AE0DC /* Assets.xcassets */,
 				8B050C982895CC2F004AE0DC /* LaunchScreen.storyboard */,
 				8B050C9B2895CC2F004AE0DC /* Info.plist */,
 			);
 			path = "uber-uikit";
+			sourceTree = "<group>";
+		};
+		8B050CA12895CDAF004AE0DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B050CA22895CDBE004AE0DC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8B050CA32895CDC3004AE0DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B050CA62895CDCE004AE0DC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B050CA82895CE92004AE0DC /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8B050CA72895CDD1004AE0DC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B050C922895CC2C004AE0DC /* ViewController.swift in Sources */,
+				8B050CA92895CE92004AE0DC /* LoginViewController.swift in Sources */,
 				8B050C8E2895CC2C004AE0DC /* AppDelegate.swift in Sources */,
 				8B050C902895CC2C004AE0DC /* SceneDelegate.swift in Sources */,
 			);
